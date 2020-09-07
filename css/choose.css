@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+.border {
+    border: 2px solid #339 !important;
+}
+
+img {
+    max-width: 100%;
+    max-height: 450px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #339;
+}
+
+span {
+    font-size: 20px;
+}

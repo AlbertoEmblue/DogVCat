@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+img {
+    max-height: 250px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #339;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        position: inherit;
+        bottom: auto;
+    }
+}

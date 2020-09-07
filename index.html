@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buena Decisión</title>
+    <title>Solo de prueba</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Css propio -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Script para el webtracking de emBlue -->
     <script src="https://cdn.embluemail.com/pixeltracking/pixeltracking.js?code=634432539760bd951af5325dcac5f01a"></script>
 </head>
-<body style="text-align: center;">
-    <h1>Necesito a los dos</h1>
-    <img src="./images/animals.jpg" style="max-width: 100%;max-height: 450px;padding: 5px;border-radius: 10px;border: 2px solid #339;">
-    <br>
-    <span style="font-size: 20px;">Gracias por participar, fuiste de mucha ayuda</span>
-    <br>
-    <span style="font-size: 20px;">Feliz Día</span>
-    <br>
-    <a href="javascript:window.close();" style="color: #fff;text-decoration: none;cursor: pointer;">
-        <button
-            style="padding: 15px;background-color: #339;border: none;border-radius: 30px;width: 100px;padding-top: 5px;padding-bottom: 5px;cursor: pointer;color: #fff;">
-            Salir
-        </button>
-    </a>
+
+<body>
+    <h1>Hora de decidir</h1>
+    <p>*Ingrese risa malvada*</p>
+    <section class="row justify-content-center">
+        <div class="col-md-3 pb-3">
+            <img src="./images/dog.jpg" alt="Perro" class="img-fluid">
+            <span class="display-4">Perros</span>
+            <p>Con su mordida feroz y olfato perspicaz los perros son un duro contendiente</p>
+            <a href="./dog.html">
+                <button class="btn btn-primary">
+                    Siempre al firu
+                </button>
+            </a>
+        </div>
+        <div class="col-md-3 pb-3">
+            <img src="./images/kat.png" alt="Gato" class="img-fluid">
+            <span class="display-4">Gatos</span>
+            <p>Con sus garras y colmillos afilados siempre son un contricante de respetar</p>
+            <a href="./cat.html">
+                <button class="btn btn-primary">
+                    Missu Missu
+                </button>
+            </a>
+        </div>
+        <div class="col-md-3 pb-3">
+            <img src="./images/animal_fight.jpg" alt="Ambos" class="img-fluid">
+            <span class="display-4">Ambos</span>
+            <p>Sabemos que puede ser una decisión muy dura, asi que, si no tienes un preferido siempre hay una tercera opción para los que no pueden decidir</p>
+            <a href="./bouth.html">
+                <button class="btn btn-primary">
+                    Dame a los dos amigo, no puedo con tanto
+                </button>
+            </a>
+        </div>
+    </section>
+    <section class="p-3 mt-auto bg-secondary text-white w-100 footer">
+        Ningún animal fue lastimado para la realización de esta encuesta. unicamente nuestro pasante que salió un poco herido intentando bañar al gato.
+    </section>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- script para emBlue -->
     <script src="./js/emblue-sdk-worker.js"></script>
 </body>
+
 </html>
