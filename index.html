@@ -16,62 +16,284 @@
 <body>
     <h1>Hora de decidir</h1>
     <p>*Ingrese risa malvada*</p>
-    <section class="row justify-content-center">
-        <div class="col-md-3 pb-3">
-            <img src="./images/dog.jpg" alt="Perro" class="img-fluid">
-            <span class="display-4">Perros</span>
-            <p>Con su mordida feroz y olfato perspicaz los perros son un duro contendiente</p>
-            <a href="./dog.html">
-                <button class="btn btn-primary">
+    <!-- <!DOCTYPE>
+    <html>
+
+    <head>
+        <meta name="robots" content="noindex,nofollow">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" type="image/png" href="http://app.embluemail.com/Imagenes/favicon.ico">
+        <title>Formulario vía emBluemail</title>
+        <style>
+            body,
+            input {
+                font-family: Helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: lighter;
+                color: #777;
+            }
+            
+            .cabecera {
+                width: 100%;
+                height: 50px;
+                background-color: #3797f7;
+                margin: 0px auto;
+                text-align: center;
+                font-size: 16px;
+                line-height: 50px;
+                color: #ffffff;
+            }
+            
+            .cuerpo {
+                border-width: 1px;
+                border-color: #e5e5e5;
+                border-style: none solid solid solid;
+                background-color: #f5f5f5;
+                padding: 25px 0px 30px 0px;
+            }
+            
+            .marco {
+                padding: 0 50px 0 50px;
+            }
+            
+            .formulario {
+                width: 100%;
+            }
+            
+            .formulario tr.campo td {
+                padding: 6px 0;
+            }
+            
+            .formulario td p {
+                text-align: right;
+                line-height: 12px;
+                alignment-baseline: middle;
+                font-size: 12px !important;
+                font-weight: lighter !important;
+            }
+            
+            .formulario input,
+            select {
+                border: solid 1px #999;
+                min-height: 22px;
+                min-width: 200px;
+                line-height: 22px;
+                padding: 0px 5px;
+                color: #999;
+                font-size: 12px;
+                border-radius: 2px;
+                white-space: nowrap;
+                text-decoration: none;
+                color: #333;
+                margin-left: 5px;
+                background-color: #ffffff;
+            }
+            
+            input[type="submit"] {
+                display: inline-block;
+                border: solid 1px #1c83ea;
+                min-height: 34px;
+                line-height: 34px;
+                padding: 0px 20px;
+                background-color: #3797f7;
+                color: #FFFFFF;
+                font-size: 14px;
+                font-weight: 200;
+                border-radius: 3px;
+                white-space: nowrap;
+                text-decoration: none;
+                margin-top: 20px;
+            }
+            
+            .leyenda {
+                padding-top: 15px;
+                text-align: center;
+                font-size: 11px;
+            }
+            
+            .leyenda a {
+                color: #3366cc;
+                text-decoration: none;
+                alignment-adjust: central;
+            }
+            
+            .txt-cap {
+                text-transform: capitalize;
+            }
+            
+            .error {
+                color: #8A0808;
+                font-size: 11px;
+                margin-right: 40px;
+            }
+        </style>
+
+
+    </head>
+
+    <body>
+        <div style="overflow: hidden;">
+            <div>
+                <div style="width: 500px; margin: 0px auto;">
+    <div class="cabecera">Complete aquí sus datos</div>
+    <div class="cuerpo">
+        <div class="marco">
+            <form method="GET" action="https://app.embluemail.com//Online/TriggerUrlExterna.aspx" onsubmit="return validateForm();" novalidate="">
+                <input type="hidden" name="key" value="c6475226-0c9e-4c23-a788-2070ba936df7">
+                <table class="formulario campos">
+                    <tbody>
+                        <tr class="campo">
+                            <td>
+                                <p>Email *</p>
+                            </td>
+                            <td><input id="email" type="email" placeholder="miemail@miemail.com" name="email" required="" data-error="Campo requerido|Formato inválido"></td>
+                        </tr>
+                        <tr class="error-email">
+                            <td colspan="2" style="text-align: right;"></td>
+                        </tr>
+                        <tr id="campo-888613" class="campo">
+                            <td>
+                                <p class="txt-cap">nombre&nbsp;<span class="req">&nbsp;</span></p>
+                            </td>
+                            <td><input id="888613" type="text" name="888613" data-error="Campo requerido|Formato inválido"></td>
+                        </tr>
+                        <tr class="error-888613">
+                            <td colspan="2" style="text-align: right;"></td>
+                        </tr>
+                        <tr id="campo-888614" class="campo">
+                            <td>
+                                <p class="txt-cap">apellido&nbsp;<span class="req">&nbsp;</span></p>
+                            </td>
+                            <td><input id="888614" type="text" name="888614" data-error="Campo requerido|Formato inválido"></td>
+                        </tr>
+                        <tr class="error-888614">
+                            <td colspan="2" style="text-align: right;"></td>
+                        </tr>
+                        <tr id="campo-888617" class="campo">
+                            <td>
+                                <p class="txt-cap">telefono_1&nbsp;<span class="req">&nbsp;</span></p>
+                            </td>
+                            <td><input id="888617" type="text" name="888617" data-error="Campo requerido|Formato inválido"></td>
+                        </tr>
+                        <tr class="error-888617">
+                            <td colspan="2" style="text-align: right;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="formulario">
+                    <tbody>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Confirmar datos">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <!--FIN FORMULARIO-->
+    </div>
+    <!--FIN CUERPO-->
+    <!--LEYENDA-->
+    <div class="leyenda">
+        Formulario creado a través de
+        <a href="http://www.embluemail.com" target="_blank">emBluemail</a>.
+    </div>
+    <!--FIN LEYENDA-->
+    </div>
+    </div>
+
+    </div>
+    <script type="text/javascript" src="/emblue/form_validation.js"></script>
+</body> -->
+
+</html>
+<section class="row justify-content-center">
+    <div class="col-md-3 pb-3">
+        <img src="./images/dog.jpg" alt="Perro" class="img-fluid">
+        <span class="display-4">Perros</span>
+        <p>Con su mordida feroz y olfato perspicaz los perros son un duro contendiente</p>
+        <a href="./dog.html">
+            <button class="btn btn-primary">
                     Siempre al firu
                 </button>
-            </a>
-        </div>
-        <div class="col-md-3 pb-3">
-            <img src="./images/kat.png" alt="Gato" class="img-fluid">
-            <span class="display-4">Gatos</span>
-            <p>Con sus garras y colmillos afilados siempre son un contricante de respetar</p>
-            <a href="./cat.html">
-                <button class="btn btn-primary">
+        </a>
+    </div>
+    <div class="col-md-3 pb-3">
+        <img src="./images/kat.png" alt="Gato" class="img-fluid">
+        <span class="display-4">Gatos</span>
+        <p>Con sus garras y colmillos afilados siempre son un contricante de respetar</p>
+        <a href="./cat.html">
+            <button class="btn btn-primary">
                     Missu Missu
                 </button>
-            </a>
-        </div>
-        <div class="col-md-3 pb-3">
-            <img src="./images/animal_fight.jpg" alt="Ambos" class="img-fluid">
-            <span class="display-4">Ambos</span>
-            <p>Sabemos que puede ser una decisión muy dura, asi que, si no tienes un preferido siempre hay una tercera opción para los que no pueden decidir</p>
-            <a href="./bouth.html">
-                <button class="btn btn-primary">
+        </a>
+    </div>
+    <div class="col-md-3 pb-3">
+        <img src="./images/animal_fight.jpg" alt="Ambos" class="img-fluid">
+        <span class="display-4">Ambos</span>
+        <p>Sabemos que puede ser una decisión muy dura, asi que, si no tienes un preferido siempre hay una tercera opción para los que no pueden decidir</p>
+        <a href="./bouth.html">
+            <button class="btn btn-primary">
                     Dame a los dos amigo, no puedo con tanto
                 </button>
-            </a>
-        </div>
-    </section>
-    <section class="p-3 mt-auto bg-secondary text-white w-100 footer">
-        Ningún animal fue lastimado para la realización de esta encuesta. unicamente nuestro pasante que salió un poco herido intentando bañar al gato.
-    </section>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <!-- script para emBlue -->
-    <script>
-        (function(w, d, k, t, u, s, c, f) {
-            f = function(t) {
-                t = new Date();
-                return t.getFullYear() + '' + (t.getMonth() + 1) + '' + t.getDate() + 'T' + t.getHours() + '' + t.getMinutes() + '' + t.getSeconds()
-            };
-            u = 'https://widgets-static.embluemail.com/accounts/7335F7204DAA8D9A/scripts/sw_733.js?ts=' + f();
-            w[k] = w[k] || [];
-            s = d.createElement(t);
-            s.async = 1;
-            s.src = u;
-            c = d.getElementsByTagName(t)[0];
-            c.parentNode.insertBefore(s, c);
-        })(window, document, '_swdg', 'script');
-    </script>
-    <script src="./emblue-sdk-worker.js"></script>
+        </a>
+    </div>
+</section>
+<section class="p-3 mt-auto bg-secondary text-white w-100 footer">
+    Ningún animal fue lastimado para la realización de esta encuesta. unicamente nuestro pasante que salió un poco herido intentando bañar al gato.
+</section>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- script para emBlue -->
+<script>
+    (function(w, d, k, t, u, s, c, f) {
+        f = function(t) {
+            t = new Date();
+            return t.getFullYear() + '' + (t.getMonth() + 1) + '' + t.getDate() + 'T' + t.getHours() + '' + t.getMinutes() + '' + t.getSeconds()
+        };
+        u = 'https://widgets-static.embluemail.com/accounts/7335F7204DAA8D9A/scripts/sw_733.js?ts=' + f();
+        w[k] = w[k] || [];
+        s = d.createElement(t);
+        s.async = 1;
+        s.src = u;
+        c = d.getElementsByTagName(t)[0];
+        c.parentNode.insertBefore(s, c);
+    })(window, document, '_swdg', 'script');
+</script>
+<script src="./emblue-sdk-worker.js"></script>
+<script>
+    (function(w, d, k, t, u, s, c, f) {
+        f = function(t) {
+            t = new Date();
+            return t.getFullYear() + '' + (t.getMonth() + 1) + '' + t.getDate() + 'T' + t.getHours() + '' + t.getMinutes() + '' + t.getSeconds()
+        };
+        u = 'https://widgets-static.embluemail.com/accounts/12505FBFD1B09B295/scripts/sw_1250.js?ts=' + f();
+        w[k] = w[k] || [];
+        s = d.createElement(t);
+        s.async = 1;
+        s.src = u;
+        c = d.getElementsByTagName(t)[0];
+        c.parentNode.insertBefore(s, c);
+    })(window, document, '_swdg', 'script');
+</script>
+<script>
+    (function(w, d, k, t, u, s, c, f) {
+        f = function(t) {
+            t = new Date();
+            return t.getFullYear() + '' + (t.getMonth() + 1) + '' + t.getDate() + 'T' + t.getHours() + '' + t.getMinutes() + '' + t.getSeconds()
+        };
+        u = 'https://widgets-static.embluemail.com/accounts/12875FC5140DA4ED5/scripts/sw_1287.js?ts=' + f();
+        w[k] = w[k] || [];
+        s = d.createElement(t);
+        s.async = 1;
+        s.src = u;
+        c = d.getElementsByTagName(t)[0];
+        c.parentNode.insertBefore(s, c);
+    })(window, document, '_swdg', 'script');
+</script>
 </body>
 
 </html>
