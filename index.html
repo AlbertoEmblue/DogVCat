@@ -6,29 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solo de prueba</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Css propio -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Script para el webtracking de emBlue -->
-    <script src="https://cdn.embluemail.com/pixeltracking/pixeltracking.js?code=634432539760bd951af5325dcac5f01a"></script>
+    <script
+        src="https://cdn.embluemail.com/pixeltracking/pixeltracking.js?code=634432539760bd951af5325dcac5f01a"></script>
 
 </head>
 <!-- as -->
 
 <body>
-    <script>
-        (function(w, d, t, r, u, o, s, f) {
-            w[r] = w[r] || function() {
-                (w._rq = w._rq || []).push(Array.prototype.slice.call(arguments))
-            };
-            s = d.createElement(t), f = d.getElementsByTagName(t)[0];
-            s.async = 1;
-            s.src = u;
-            s.id = 'rtracker';
-            s.setAttribute('data-api-key', o);
-            f.parentNode.insertBefore(s, f)
-        })(window, document, 'script', '_gb', 'https://track.embluemail.com/tracker/tracker.js', 'd2588a71ac364a83bd21e3c0b7af739e');
-    </script>;
+    <script>(function (w, d, t, r, u, o, s, f) { w[r] = w[r] || function () { (w._rq = w._rq || []).push(Array.prototype.slice.call(arguments)) }; s = d.createElement(t), f = d.getElementsByTagName(t)[0]; s.async = 1; s.src = u; s.id = 'rtracker'; s.setAttribute('data-api-key', o); f.parentNode.insertBefore(s, f) })(window, document, 'script', '_gb', 'https://track.embluemail.com/tracker/tracker.js', 'd2588a71ac364a83bd21e3c0b7af739e');</script>
+    ;
 
     <h1>Hora de decidir</h1>
     <p>*Ingrese risa malvada*</p>
@@ -56,7 +47,8 @@
         <div class="col-md-3 pb-3">
             <img src="./images/animal_fight.jpg" alt="Ambos" class="img-fluid">
             <span class="display-4">Ambos</span>
-            <p>Sabemos que puede ser una decisión muy dura, asi que, si no tienes un preferido siempre hay una tercera opción para los que no pueden decidir</p>
+            <p>Sabemos que puede ser una decisión muy dura, asi que, si no tienes un preferido siempre hay una tercera
+                opción para los que no pueden decidir</p>
             <a href="./bouth.html">
                 <button class="btn btn-primary">
                     Dame a los dos amigo, no puedo con tanto
@@ -65,18 +57,25 @@
         </div>
     </section>
     <section class="p-3 mt-auto bg-secondary text-white w-100 footer">
-        Ningún animal fue lastimado para la realización de esta encuesta. unicamente nuestro pasante que salió un poco herido intentando bañar al gato.
+        Ningún animal fue lastimado para la realización de esta encuesta. unicamente nuestro pasante que salió un poco
+        herido intentando bañar al gato.
     </section>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <!-- script push notifications -->
     <script src="./emblue-sdk-worker.js"></script>
     <!-- script para emBlue -->
     <script>
-        (function(w, d, k, t, u, s, c, f) {
-            f = function(t) {
+        (function (w, d, k, t, u, s, c, f) {
+            f = function (t) {
                 t = new Date();
                 return t.getFullYear() + '' + (t.getMonth() + 1) + '' + t.getDate() + 'T' + t.getHours() + '' + t.getMinutes() + '' + t.getSeconds()
             };
