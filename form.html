@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" id="login-form">
+    <input class="field" type="text"  onkeydown="if (event.keyCode == 13) document.getElementById('submitButton').click()" id="emailField" name="email-field" placeholder="e-mail" style="text-transform: lowercase;" autofocus>
+    <br>
+    <input class="field" type="password" id="password" name="pass" placeholder="password">
+    <br>
+    <br> 
+    <button id="submitButton" onclick="setCookie('email', 'emailField')" type="submit">set Cookie email</button>
+    <br>
+    <button onclick="setCookie('password', 'password')" type="button">set Cookie password</button>
+    <br>
+    <button onclick="displayCookieValue('email')" type="button">display Cookie email</button>
+    <br>
+    <button onclick="displayCookieValue('password')" type="button">display Cookie password</button>  
+    <br>
+   </form>
+
+<div id="value"></div>
+
+<script>
+
+        var today = new Date();
+        var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
+
+        function setCookie(name, id) {
+            var element = document.getElementById(id);
+            var elementValue = escape(element.value);
+
+            document.cookie = name + "=" + elementValue + "; path=/; expires=" + expiry.toGMTString();
+            console.log(document.cookie);
+        }
+
+        function storeValues(form) {
+            setCookie("email", form.email - field.value);
+            return true;
+        }
+
+        function displayCookieValue(name) {
+            var value = getCookie(name);
+            var element = document.getElementById("value");
+            element.innerHTML = "Cookie name: "+ name + ", value " + value;
+
+        }
+
+        function getCookie(name) {
+            var re = new RegExp(name + "=([^;]+)");
+            var value = re.exec(document.cookie);
+            return (value != null) ? unescape(value[1]) : null;
+        }
+</script>
+</body>
+</html>
