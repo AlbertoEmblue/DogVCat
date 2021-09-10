@@ -9,6 +9,15 @@ function setCookie(name, id) {
     console.log(document.cookie);
 }
 
+function setCookieWRedirect(name, id) {
+    var element = document.getElementById(id);
+    var elementValue = escape(element.value);
+
+    document.cookie = name + "=" + elementValue + "; path=/; expires=" + expiry.toGMTString();
+    console.log(document.cookie);
+    document.location.href = "index.html";
+}
+
 function displayCookieValue(name) {
     var value = getCookie(name);
     var element = document.getElementById("value");
